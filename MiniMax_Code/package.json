@@ -1,0 +1,20 @@
+{
+  "name": "minimax-translator",
+  "version": "1.0.0",
+  "description": "Russian localizer for MiniMax Code",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "npx pkg . --targets node18-win-x64 --output dist/MiniMax_Localizer.exe"
+  },
+  "dependencies": {
+    "@electron/asar": "^3.2.13",
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "assets": [
+      "locales/ru_dict_full.json"
+    ]
+  }
+}
