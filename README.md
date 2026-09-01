@@ -12,7 +12,7 @@
 Для каждого из приложений есть отдельный скрипт-установщик.
 
 1. Перейдите на вкладку [Releases](https://github.com/mrvislipysli/MiniMax_Code_Russian_Localizer/releases) (или скомпилируйте `exe` самостоятельно, см. ниже).
-2. Скачайте нужный установщик: `MiniMax_Localizer.exe` для Code или `MiniMax_Design_Localizer.exe` для Design.
+2. Скачайте нужный установщик: `MiniMax_Code_Localizer.exe` для Code или `MiniMax_Design_Localizer.exe` для Design.
 3. Убедитесь, что само приложение (MiniMax Code / Design) **закрыто**.
 4. Запустите скачанный `.exe` файл от имени администратора. 
 5. Скрипт автоматически найдет установленное приложение, извлечет ресурсы, добавит русский язык и переупакует всё обратно.
